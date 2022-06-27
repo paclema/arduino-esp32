@@ -29,9 +29,24 @@
 // #define I2C_POWER           7     // I2C power pin
 // #define PIN_I2C_POWER       7     // I2C power pin
 
-#define SW1_PIN        4
-#define SW2_PIN        5
+#define VBUS_SENSE_PIN			1
+#define VBAT_SENSE_PIN			2
+#define VBAT_STAT_SENSE_PIN		3
 
+#define SW1_PIN		4
+#define SW2_PIN		5
+
+#define RFM95W_DIO0_PIN		6
+#define RFM95W_DIO1_PIN		7
+#define RFM95W_DIO2_PIN		8
+#define RFM95W_DIO3_PIN		9
+#define RFM95W_NSS_PIN		10
+#define RFM95W_MOSI_PIN		11
+#define RFM95W_SCK_PIN		12
+#define RFM95W_MISO_PIN		13
+#define RFM95W_RESET_PIN		14
+#define RFM95W_DIO4_PIN		15
+#define RFM95W_DIO5_PIN		16
 
 static const uint8_t TX = 43;
 static const uint8_t RX = 44;
